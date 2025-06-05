@@ -2,7 +2,7 @@ import formidable from 'formidable';
 import fs from 'fs-extra';
 import path from 'path';
 import AdmZip from 'adm-zip';
-import { scanComponents } from '@/utils/scanComponents';
+import { scanComponents } from '../../utils/scanComponents';
 
 export const config = {
   api: { bodyParser: false }
